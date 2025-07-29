@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Fabian Hernandez",
+  title: "Hola a todos, soy Fabián",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Ingeniero Civil en informática 🚀 Con más de 25 años de experiencia en liderazgo y formación de equipos de Tecnologías de la Información en destacadas empresas nacionales, soy un ejecutivo especializado en la gestión e implementación de proyectos de alta complejidad, operaciones de TI, certificación de software, análisis, gestión de datos y mejora de procesos. Destaco por mi enfoque orientado a resultados y por mi habilidad para abordar desafíos de manera innovadora. Mi prioridad siempre es atender de manera efectiva las necesidades del cliente en cada empresa en la que colaborado. Adicionalmente, cuento con destacadas habilidades interpersonales, sólidas capacidades de negociación y experiencia en docencia."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/11wR0x1stn8QX-icYyPoSO2e4LVSxQ4hU/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/fahg-cl",
+  linkedin: "https://www.linkedin.com/in/fabianhernandez/",
+  gmail: "fahg76@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://web.facebook.com/FAHG.cl",
+  instagram: "https://www.instagram.com/fahg_cl/",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +49,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Que cosas hago",
+  subTitle: "ME GUSTA LA TECNOLOGÍA, QUISIERA TENER MÁS TIEMPO PARA APRENDER MUCHAS COSAS MÁS, DE TODAS FORMAS HE APRENDIDO A LO LARGO DE LOS AÑOS A DESARROLLAR PROYECTOS EN DIFERENTES TECNOLOGÍAS, MI FUERTE EN SI ES LA GESTIÓN DE EQUIPOS DE TI",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Organización y gestión de proyectos de TI, incluyendo la planificación, ejecución y seguimiento de proyectos complejos."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Conformación y liderazgo de equipos de TI, fomentando un ambiente colaborativo y productivo."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Liderazgo en la implementación de proyectos de alta complejidad, asegurando la entrega a tiempo y dentro del presupuesto."
     )
   ],
 
@@ -64,61 +65,142 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  /*{
+    skillName: "HTML5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "CSS3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "Sass",
+    fontAwesomeClassname: "fab fa-sass"
+  },*/
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "devicon-javascript-plain"
+  },
+  /*{
+    skillName: "React.js",
+    fontAwesomeClassname: "fab fa-react"
+  },*/
+  {
+    skillName: "Node.js",
+    fontAwesomeClassname: "fab fa-node"
+  },
+  /*{
+    skillName: "Swift",
+    fontAwesomeClassname: "fab fa-swift"
+  },
+  {
+    skillName: "NPM",
+    fontAwesomeClassname: "fab fa-npm"
+  },*/
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "devicon-amazonwebservices-plain-wordmark"
+  },
+  /*{
+    skillName: "Firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  },*/
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "Docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "JQuery",
+    fontAwesomeClassname: "devicon-jquery-plain"
+  },
+  {
+    skillName: "JSON",
+    fontAwesomeClassname: "fas fa-code"
+  },
+  {
+    skillName: "HubSpot CRM",
+    fontAwesomeClassname: "devicon-hubspot-plain"
+  },
+  {
+    skillName: "GCP",
+    fontAwesomeClassname: "devicon-googlecloud-plain"
+  },
+  {
+    skillName: "Power BI",
+    fontAwesomeClassname: "custom powerbi-icon"
+  },
+  {
+    skillName: "Laravel",
+    fontAwesomeClassname: "devicon-laravel-plain"
+  },
+  {
+    skillName: "ASP.NET",
+    fontAwesomeClassname: "devicon-dot-net-plain"
+  },
+  {
+    skillName: "PHP",
+    fontAwesomeClassname: "devicon-php-plain"
+  },
+  {
+    skillName: "HTML5",
+    fontAwesomeClassname: "devicon-html5-plain"
+  },
+  {
+    skillName: "XML",
+    fontAwesomeClassname: "fas fa-code"
+  },
+  {
+    skillName: "Lotus Notes",
+    fontAwesomeClassname: "custom lotus-notes-icon"
+  },
+  {
+    skillName: "Java",
+    fontAwesomeClassname: "devicon-java-plain"
+  },
+  {
+    skillName: "SQL Server",
+    fontAwesomeClassname: "devicon-microsoftsqlserver-plain"
+  },
+  {
+    skillName: "PL/SQL",
+    fontAwesomeClassname: "custom plsql-icon"
+  },
+  {
+    skillName: "C",
+    fontAwesomeClassname: "devicon-c-plain"
+  },
+  {
+    skillName: "C#",
+    fontAwesomeClassname: "devicon-csharp-plain"
+  },
+  {
+    skillName: "C++ Builder",
+    fontAwesomeClassname: "devicon-cplusplus-plain"
+  },
+  {
+    skillName: "SharePoint",
+    fontAwesomeClassname: "custom sharepoint-icon"
+  },
+  {
+    skillName: "Prolog",
+    fontAwesomeClassname: "custom prolog-icon"
+  },
+  {
+    skillName: "Visual Basic",
+    fontAwesomeClassname: "devicon-visualstudio-plain"
+  }
+],
+display: true // Set false to hide this section, defaults to true
 };
+
 
 // Education Section
 
@@ -126,23 +208,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Univesidad de Santiago de Chile",
+      logo: require("./assets/images/UsachP2.png"),
+      subHeader: "Ingeniero Civil en Informática",
+      duration: "Marzo 1995 - Septiembre 2002",
+      desc: "Trabajo de Título",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Segmentación de Fallas Hipotéticas en la Inspección Visual Automática"        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "FEN Universidad de Chile",
+      logo: require("./assets/images/Logo_FEN_UChile.png"),
+      subHeader: "(E)Master of Business Administration (MBA)",
+      duration: "Abril 2012 - Diciembre 2013",
+      desc: "Programa Weekends para profesionales con experiencia",
+      descBullets: [" Doble titulación",
+        "The George Washington University Advanced seminar on Topic in International Business, International Bussines"]
     }
   ]
 };
@@ -153,16 +235,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Dirección TI", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Gestión TI",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Programación",
+      progressPercentage: "80%"
+    },/*
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },*/
+    {
+      Stack: "Ciencia de Datos",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "DevOps",
+      progressPercentage: "30%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,35 +265,102 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Jefe de Proyecto Senior",
+      company: "Ministerio de Vivienda y Urbanismo (MINVU)",
+      companylogo: require("./assets/images/LogoMinvu.png"),
+      date: "Jun 2024 – Actualidad",
+      desc: "Liderazgo de proyectos estratégicos como el ERP Ministerial, sistemas BPM de control urbano y plataforma de acreditación para profesionales del urbanismo.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Dirección del ERP para 16 Serviu, 16 Seremi y el Parque Metropolitano (más de 1.600 millones CLP).",
+        "Implementación de BPM para seguimiento de programas del DGU (más de 20.000 millones CLP anuales).",
+        "Desarrollo de sistema de acreditación para planes reguladores urbanos (más de 17.100 millones CLP anuales)."
+      ]
+    },/*
+    {
+      role: "Consultor Independiente",
+      company: "Consultoría Profesional",
+      companylogo: require("./assets/images/consultorLogo.png"),
+      date: "Ago 2023 – May 2024",
+      desc: "Asesoría técnica a estudios jurídicos en la gestión y normalización de bases de datos geográficas para proyectos de alto impacto."
+    },*/
+    {
+      role: "Subgerente de Continuidad Operacional, Soporte Tecnológico y Explotación",
+      company: "Empresas SB",
+      companylogo: require("./assets/images/LogoEmpresasSB.png"),
+      date: "Oct 2021 – Feb 2023",
+      desc: "Responsable de continuidad operacional y soporte TI para la transformación digital de la compañía.",
+      descBullets: [
+        "Formación de 4 nuevos equipos y administración de 53 personas.",
+        "Implementación de plataforma JIRA y atención extendida vía call center en Colombia.",
+        "Mejoras en gestión de incidencias y optimización de recursos tecnológicos."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Jefe de Continuidad Operacional y Mejora Continua",
+      company: "Empresas SB",
+      companylogo: require("./assets/images/LogoEmpresasSB.png"),
+      date: "Abr 2020 – Nov 2021",
+      desc: "Reconstrucción del área tras salida de proveedor externo, fortaleciendo la atención interna en el holding SB.",
+      descBullets: [
+        "Gestión de más de 10.000 tickets mensuales.",
+        "Consolidación de procesos críticos y mejora continua."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Subgerente de TI",
+      company: "Clínica Vespucio",
+      companylogo: require("./assets/images/LogoDavilaVespucio.png"),
+      date: "Feb 2018 – May 2019",
+      desc: "Liderazgo total del área TI, reorganización completa de equipos y procesos.",
+      descBullets: [
+        "Creación de subgerencia, nueva Mesa de Ayuda y soporte técnico híbrido.",
+        "Ahorro de MM$120 anuales en servicios de impresión.",
+        "Implementación de nuevas unidades clínicas y control total de incidentes de seguridad."
+      ]
+    },
+    {
+      role: "Jefe de Área Canales & Front",
+      company: "Isapre Consalud",
+      companylogo: require("./assets/images/LogoConsalud.png"),
+      date: "Nov 2010 – Dic 2017",
+      desc: "Responsable de todos los canales digitales y presenciales de atención al cliente.",
+      descBullets: [
+        "Migración completa de web privada y desarrollo de funcionalidades críticas (reembolsos, bonos, pagos).",
+        "Implementación de modelo de contactabilidad y aumento de eficiencia de contacto de 10% a 45%.",
+        "Proyectos de innovación en venta digital, UI/UX, y analítica web."
+      ]
+    },
+    {
+      role: "Jefe de Proyectos",
+      company: "BCI Seguros",
+      companylogo: require("./assets/images/logobci.svg"),
+      date: "Abr 2010 – Nov 2010",
+      desc: "Responsable de proyectos tecnológicos en el área de siniestros de vehículos."
+    },
+    {
+      role: "Jefe de Proyectos Canales Remotos / QA",
+      company: "Penta Vida",
+      companylogo: require("./assets/images/logoPentaVida.png"),
+      date: "Dic 2005 – Mar 2010",
+      desc: "Liderazgo en canales de atención y certificación QA.",
+      descBullets: [
+        "Responsable de canales de atención a clientes.",
+        "Creador del área de certificación de software QA."
+      ]
+    },
+    {
+      role: "Ingeniero de Sistemas",
+      company: "Synapsis (hoy TIVIT)",
+      companylogo: require("./assets/images/LogoTivit.png"),
+      date: "Dic 1999 – Nov 2005",
+      desc: "Desarrollo y mantención de sitios web e intranet para el grupo Enersis (actual ENEL)."
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -239,7 +400,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -324,7 +485,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -356,7 +517,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
